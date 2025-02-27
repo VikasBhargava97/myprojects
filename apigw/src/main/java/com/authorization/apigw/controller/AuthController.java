@@ -18,5 +18,6 @@ public class AuthController {
     @PostMapping("/token")
     public String generateToken(@RequestBody AuthRequest request)
     {
+		return null;
     }
 }
